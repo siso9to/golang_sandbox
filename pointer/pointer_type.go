@@ -7,5 +7,5 @@ func main() {
 	var hoge *int
 
 	*hoge = 100
-	fmt.Printf("%d", *hoge)
+	fmt.Printf("%d", *hoge) //エラー
 }
